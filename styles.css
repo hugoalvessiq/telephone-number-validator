@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #bba1a4;
+}
+
+.phone-camera {
+  top: 18px;
+  position: relative;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.title {
+  color: #646262;
+}
+
+#results-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 85%;
+  align-items: center;
+}
+
+.phone-home {
+  top: 535px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.801);
+  border: 0.08em solid black;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.phone-container {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  background-color: #795454;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.phone-screen {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 260px;
+  height: 480px;
+  background-color: rgba(255, 255, 255, 0.747);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.phone-input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.phone-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.phone-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.phone-button-clear {
+  background-color: #dc3545;
+}
